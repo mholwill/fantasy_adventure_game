@@ -12,4 +12,8 @@ public class Cleric extends Player {
         super(name, healthPoints);
         this.potions= new ArrayList<IHeal>();
     }
+
+    public int getPotions() {
+        return this.potions.size();
+    }
 }
