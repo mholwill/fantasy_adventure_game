@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="995e7f6b-f7cc-4ae8-81f9-e9005586e3de" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Weapons/IHeal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Characters/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Characters/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Enemies/Enemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Enemies/enemy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Weapons/IWeapon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Weapons/IAttack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Weapons/Weapon.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Enemies/enemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Enemies/Enemy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Weapons/IHeal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Weapons/IHeal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

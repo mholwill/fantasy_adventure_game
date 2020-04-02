@@ -2,11 +2,13 @@ package Enemies;
 
 import Weapons.IAttack;
 
-public class enemy implements IAttack {
+public abstract class Enemy {
 
+    private String name;
     protected int healthPoints;
 
-    public enemy(int healthPoints){
+    public Enemy(String name, int healthPoints){
+        this.name = name;
         this.healthPoints = healthPoints;
     }
 
@@ -18,7 +20,7 @@ public class enemy implements IAttack {
         this.healthPoints = healthPoints;
     }
 
-    public void attack(Weapon weapon){
-        this.healthPoints -= weapon.getDamagePoints();
-    }
+//   Method Can take damage
+
+
 }

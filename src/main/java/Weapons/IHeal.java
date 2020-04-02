@@ -1,4 +1,4 @@
 package Weapons;
 
-public class IHeal {
+public interface IHeal {
 }
