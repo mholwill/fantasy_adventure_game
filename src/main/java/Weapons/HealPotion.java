@@ -25,4 +25,8 @@ public class HealPotion implements IHeal {
     public void setName(String name) {
         this.name = name;
     }
+
+    public int getHealingPower() {
+        return healingPower;
+    }
 }

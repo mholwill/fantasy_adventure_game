@@ -12,4 +12,13 @@ public class Knight extends Player{
         super(name, healthPoints);
         this.weapons = new ArrayList<IAttack>();
     }
+
+    public int getWeapons() {
+        return this.weapons.size();
+    }
+
+    public void addWeapon(IAttack weapon){
+        this.weapons.add(weapon);
+    }
+
 }

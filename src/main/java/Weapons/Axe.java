@@ -26,4 +26,8 @@ public class Axe implements IAttack{
     public void setName(String name) {
         this.name = name;
     }
+
+    public int getDamagePoints() {
+        return damage;
+    }
 }

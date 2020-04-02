@@ -1,5 +1,6 @@
 package Characters;
 
+import Weapons.IAttack;
 import Weapons.IHeal;
 
 import java.util.ArrayList;
@@ -15,5 +16,9 @@ public class Cleric extends Player {
 
     public int getPotions() {
         return this.potions.size();
+    }
+
+    public void addWeapon(IHeal potion){
+        this.potions.add(potion);
     }
 }

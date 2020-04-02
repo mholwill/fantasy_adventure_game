@@ -1,6 +1,7 @@
 package Characters;
 
 import Weapons.ISpell;
+import Weapons.Spell;
 
 import java.util.ArrayList;
 
@@ -14,4 +15,11 @@ public class Wizard extends Player{
     }
 
 
+    public int getSpells() {
+        return this.spells.size();
+    }
+
+    public void addSpell(Spell spell) {
+        spells.add(spell);
+    }
 }

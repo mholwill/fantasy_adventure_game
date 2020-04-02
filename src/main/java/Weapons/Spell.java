@@ -13,8 +13,9 @@ public class Spell implements ISpell {
     }
 
     public void cast(Enemy enemy) {
-        int damagePoints = this.spellDamage -= enemy.getHealthPoints();
-        enemy.setHealthPoints(damagePoints);
+        int healthpoints = enemy.getHealthPoints();
+        healthpoints -= this.spellDamage;
+        enemy.setHealthPoints(healthpoints);
     }
 
     public String getName() {
@@ -23,5 +24,9 @@ public class Spell implements ISpell {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public int getDamagePoints() {
+        return spellDamage;
     }
 }
