@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="995e7f6b-f7cc-4ae8-81f9-e9005586e3de" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/MythicalCreatures/Creature.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MythicalCreatures/IDefend.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Characters/Cleric.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Characters/Cleric.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/HealTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HealTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Characters/Cleric.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Characters/Cleric.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/HealTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/HealTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Weapons/IHeal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Weapons/IHeal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AttackTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AttackTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +16,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -129,30 +129,30 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="533" y="184" key="#com.intellij.ide.util.MemberChooser" timestamp="1585831871997">
+    <state x="533" y="184" key="#com.intellij.ide.util.MemberChooser" timestamp="1585835186651">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="533" y="184" key="#com.intellij.ide.util.MemberChooser/-265.-1057.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1585831871997" />
+    <state x="533" y="184" key="#com.intellij.ide.util.MemberChooser/-265.-1057.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1585835186651" />
     <state x="458" y="215" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1585824676822">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="458" y="215" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-265.-1057.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1585824676822" />
-    <state width="1398" height="230" key="GridCell.Tab.0.bottom" timestamp="1585833794993">
+    <state width="1398" height="230" key="GridCell.Tab.0.bottom" timestamp="1585834516717">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="230" key="GridCell.Tab.0.bottom/-265.-1057.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1585833794993" />
-    <state width="1398" height="230" key="GridCell.Tab.0.center" timestamp="1585833794993">
+    <state width="1398" height="230" key="GridCell.Tab.0.bottom/-265.-1057.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1585834516717" />
+    <state width="1398" height="230" key="GridCell.Tab.0.center" timestamp="1585834516716">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="230" key="GridCell.Tab.0.center/-265.-1057.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1585833794993" />
-    <state width="1398" height="230" key="GridCell.Tab.0.left" timestamp="1585833794992">
+    <state width="1398" height="230" key="GridCell.Tab.0.center/-265.-1057.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1585834516716" />
+    <state width="1398" height="230" key="GridCell.Tab.0.left" timestamp="1585834516715">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="230" key="GridCell.Tab.0.left/-265.-1057.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1585833794992" />
-    <state width="1398" height="230" key="GridCell.Tab.0.right" timestamp="1585833794993">
+    <state width="1398" height="230" key="GridCell.Tab.0.left/-265.-1057.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1585834516715" />
+    <state width="1398" height="230" key="GridCell.Tab.0.right" timestamp="1585834516716">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="230" key="GridCell.Tab.0.right/-265.-1057.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1585833794993" />
+    <state width="1398" height="230" key="GridCell.Tab.0.right/-265.-1057.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1585834516716" />
     <state width="1398" height="285" key="GridCell.Tab.1.bottom" timestamp="1585831635270">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
