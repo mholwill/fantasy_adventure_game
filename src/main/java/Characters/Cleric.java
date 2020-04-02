@@ -8,7 +8,7 @@ public class Cleric extends Player {
 
     private ArrayList<IHeal> potions;
 
-    public Cleric(String name, int healthPoints, IHeal potions) {
+    public Cleric(String name, int healthPoints) {
         super(name, healthPoints);
         this.potions= new ArrayList<IHeal>();
     }

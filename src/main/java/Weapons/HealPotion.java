@@ -17,4 +17,12 @@ public class HealPotion implements IHeal {
         int healPoints = this.healingPower += player.getHealthPoints();
         player.setHealthPoints(healPoints);
     }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
 }

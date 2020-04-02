@@ -20,6 +20,14 @@ public abstract class Enemy {
         this.healthPoints = healthPoints;
     }
 
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
 //   Method Can take damage
 
 

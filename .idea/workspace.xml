@@ -2,15 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="995e7f6b-f7cc-4ae8-81f9-e9005586e3de" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Weapons/Axe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Weapons/HealPotion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Weapons/Spell.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Weapons/Sword.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/AttackTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/HealTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SpellTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Characters/Cleric.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Characters/Cleric.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Characters/Dwarf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Characters/Dwarf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Characters/Knight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Characters/Knight.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Characters/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Characters/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Weapons/IAttack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Weapons/IAttack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Weapons/IHeal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Weapons/IHeal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Weapons/ISpell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Weapons/ISpell.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Characters/Wizard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Characters/Wizard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Enemies/Enemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Enemies/Enemy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Weapons/Axe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Weapons/Axe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Weapons/HealPotion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Weapons/HealPotion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Weapons/Spell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Weapons/Spell.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Weapons/Sword.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Weapons/Sword.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +54,33 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
   </component>
+  <component name="RunManager" selected="JUnit.AttackTest.canGetHealthPoints">
+    <configuration name="AttackTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FantasyAdventure" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AttackTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AttackTest.canGetHealthPoints" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FantasyAdventure" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AttackTest" />
+      <option name="METHOD_NAME" value="canGetHealthPoints" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.AttackTest.canGetHealthPoints" />
+        <item itemvalue="JUnit.AttackTest" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
       <list>
@@ -82,5 +115,21 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="458" y="215" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-265.-1057.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1585824676822" />
+    <state width="1398" height="230" key="GridCell.Tab.0.bottom" timestamp="1585831177520">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="230" key="GridCell.Tab.0.bottom/-265.-1057.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1585831177520" />
+    <state width="1398" height="230" key="GridCell.Tab.0.center" timestamp="1585831177519">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="230" key="GridCell.Tab.0.center/-265.-1057.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1585831177519" />
+    <state width="1398" height="230" key="GridCell.Tab.0.left" timestamp="1585831177518">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="230" key="GridCell.Tab.0.left/-265.-1057.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1585831177518" />
+    <state width="1398" height="230" key="GridCell.Tab.0.right" timestamp="1585831177519">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="230" key="GridCell.Tab.0.right/-265.-1057.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1585831177519" />
   </component>
 </project>

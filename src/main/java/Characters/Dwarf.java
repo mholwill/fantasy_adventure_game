@@ -9,8 +9,9 @@ public class Dwarf extends Player{
     private ArrayList<IAttack> weapons;
 
 
-    public Dwarf(String name, int healthPoints, IAttack weapons) {
+    public Dwarf(String name, int healthPoints) {
         super(name, healthPoints);
         this.weapons=new ArrayList<IAttack>();
     }
+
 }

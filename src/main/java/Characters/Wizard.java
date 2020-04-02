@@ -8,7 +8,7 @@ public class Wizard extends Player{
 
     private ArrayList<ISpell> spells;
 
-    public Wizard(String name, int healthPoints, ISpell spells) {
+    public Wizard(String name, int healthPoints) {
         super(name, healthPoints);
         this.spells = new ArrayList<ISpell>();
     }

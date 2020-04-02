@@ -16,4 +16,12 @@ public class Spell implements ISpell {
         int damagePoints = this.spellDamage -= enemy.getHealthPoints();
         enemy.setHealthPoints(damagePoints);
     }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
 }

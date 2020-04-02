@@ -16,4 +16,12 @@ public class Sword implements IAttack {
         int healthpointsTaken = this.damage -= enemy.getHealthPoints();
         enemy.setHealthPoints(healthpointsTaken);
     }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
 }

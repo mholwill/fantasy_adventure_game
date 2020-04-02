@@ -13,9 +13,16 @@ public class Axe implements IAttack{
         this.damage=damage;
     }
 
-
     public void attack(Enemy enemy) {
         int healthpointsTaken = this.damage -= enemy.getHealthPoints();
         enemy.setHealthPoints(healthpointsTaken);
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 }
