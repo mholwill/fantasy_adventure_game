@@ -46,7 +46,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
   </component>
-  <component name="RunManager" selected="JUnit.SpellTest.canDefendWizard">
+  <component name="RunManager" selected="JUnit.SpellTest">
     <configuration name="AttackTest.canCheckAttackPlayer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FantasyAdventure" />
       <option name="PACKAGE_NAME" value="" />
@@ -98,8 +98,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SpellTest.canDefendWizard" />
         <item itemvalue="JUnit.SpellTest" />
+        <item itemvalue="JUnit.SpellTest.canDefendWizard" />
         <item itemvalue="JUnit.SpellTest.getCreatureType" />
         <item itemvalue="JUnit.HealTest.canHealPlayer" />
         <item itemvalue="JUnit.AttackTest.canCheckAttackPlayer" />
@@ -140,22 +140,22 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="458" y="215" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-265.-1057.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1585824676822" />
-    <state width="1398" height="230" key="GridCell.Tab.0.bottom" timestamp="1585837151953">
+    <state width="1398" height="230" key="GridCell.Tab.0.bottom" timestamp="1585837372276">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="230" key="GridCell.Tab.0.bottom/-265.-1057.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1585837151953" />
-    <state width="1398" height="230" key="GridCell.Tab.0.center" timestamp="1585837151952">
+    <state width="1398" height="230" key="GridCell.Tab.0.bottom/-265.-1057.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1585837372276" />
+    <state width="1398" height="230" key="GridCell.Tab.0.center" timestamp="1585837372275">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="230" key="GridCell.Tab.0.center/-265.-1057.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1585837151952" />
-    <state width="1398" height="230" key="GridCell.Tab.0.left" timestamp="1585837151952">
+    <state width="1398" height="230" key="GridCell.Tab.0.center/-265.-1057.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1585837372275" />
+    <state width="1398" height="230" key="GridCell.Tab.0.left" timestamp="1585837372275">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="230" key="GridCell.Tab.0.left/-265.-1057.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1585837151952" />
-    <state width="1398" height="230" key="GridCell.Tab.0.right" timestamp="1585837151953">
+    <state width="1398" height="230" key="GridCell.Tab.0.left/-265.-1057.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1585837372275" />
+    <state width="1398" height="230" key="GridCell.Tab.0.right" timestamp="1585837372276">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="230" key="GridCell.Tab.0.right/-265.-1057.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1585837151953" />
+    <state width="1398" height="230" key="GridCell.Tab.0.right/-265.-1057.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1585837372276" />
     <state width="1398" height="285" key="GridCell.Tab.1.bottom" timestamp="1585831635270">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
