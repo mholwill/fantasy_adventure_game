@@ -3,11 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="995e7f6b-f7cc-4ae8-81f9-e9005586e3de" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Enemies/Enemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Enemies/Enemy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Enemies/Orc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Enemies/Orc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Enemies/Troll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Enemies/Troll.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/AttackTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AttackTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SpellTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SpellTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Characters/Cleric.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Characters/Cleric.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/HealTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HealTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Characters/Cleric.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Characters/Cleric.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/HealTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/HealTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +44,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
   </component>
-  <component name="RunManager" selected="JUnit.AttackTest.canCheckAttackPlayer">
+  <component name="RunManager" selected="JUnit.HealTest.canHealPlayer">
     <configuration name="AttackTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FantasyAdventure" />
       <option name="PACKAGE_NAME" value="" />
@@ -60,6 +59,16 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="AttackTest" />
       <option name="METHOD_NAME" value="canCheckAttackPlayer" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HealTest.canHealPlayer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FantasyAdventure" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="HealTest" />
+      <option name="METHOD_NAME" value="canHealPlayer" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -84,23 +93,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpellTest.canGetName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="FantasyAdventure" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SpellTest" />
-      <option name="METHOD_NAME" value="canGetName" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.HealTest.canHealPlayer" />
         <item itemvalue="JUnit.AttackTest.canCheckAttackPlayer" />
         <item itemvalue="JUnit.SpellTest" />
         <item itemvalue="JUnit.AttackTest" />
         <item itemvalue="JUnit.SpellTest.canCastSpell" />
-        <item itemvalue="JUnit.SpellTest.canGetName" />
       </list>
     </recent_temporary>
   </component>
@@ -138,22 +137,22 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="458" y="215" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-265.-1057.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1585824676822" />
-    <state width="1398" height="230" key="GridCell.Tab.0.bottom" timestamp="1585833626249">
+    <state width="1398" height="230" key="GridCell.Tab.0.bottom" timestamp="1585833794993">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="230" key="GridCell.Tab.0.bottom/-265.-1057.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1585833626249" />
-    <state width="1398" height="230" key="GridCell.Tab.0.center" timestamp="1585833626248">
+    <state width="1398" height="230" key="GridCell.Tab.0.bottom/-265.-1057.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1585833794993" />
+    <state width="1398" height="230" key="GridCell.Tab.0.center" timestamp="1585833794993">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="230" key="GridCell.Tab.0.center/-265.-1057.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1585833626248" />
-    <state width="1398" height="230" key="GridCell.Tab.0.left" timestamp="1585833626247">
+    <state width="1398" height="230" key="GridCell.Tab.0.center/-265.-1057.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1585833794993" />
+    <state width="1398" height="230" key="GridCell.Tab.0.left" timestamp="1585833794992">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="230" key="GridCell.Tab.0.left/-265.-1057.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1585833626247" />
-    <state width="1398" height="230" key="GridCell.Tab.0.right" timestamp="1585833626248">
+    <state width="1398" height="230" key="GridCell.Tab.0.left/-265.-1057.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1585833794992" />
+    <state width="1398" height="230" key="GridCell.Tab.0.right" timestamp="1585833794993">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="230" key="GridCell.Tab.0.right/-265.-1057.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1585833626248" />
+    <state width="1398" height="230" key="GridCell.Tab.0.right/-265.-1057.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1585833794993" />
     <state width="1398" height="285" key="GridCell.Tab.1.bottom" timestamp="1585831635270">
       <screen x="0" y="23" width="1440" height="877" />
     </state>

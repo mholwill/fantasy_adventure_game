@@ -18,7 +18,7 @@ public class Cleric extends Player {
         return this.potions.size();
     }
 
-    public void addWeapon(IHeal potion){
+    public void addPotion(IHeal potion){
         this.potions.add(potion);
     }
 }
