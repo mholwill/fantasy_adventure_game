@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="995e7f6b-f7cc-4ae8-81f9-e9005586e3de" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Weapons/Axe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Weapons/HealPotion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Weapons/Spell.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Weapons/Sword.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Enemies/enemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Enemies/Enemy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Characters/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Characters/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Weapons/IAttack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Weapons/IAttack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Weapons/IHeal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Weapons/IHeal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Weapons/ISpell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Weapons/ISpell.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,10 +74,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="533" y="184" key="#com.intellij.ide.util.MemberChooser" timestamp="1585824531466">
+    <state x="533" y="184" key="#com.intellij.ide.util.MemberChooser" timestamp="1585829980947">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="533" y="184" key="#com.intellij.ide.util.MemberChooser/-265.-1057.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1585824531466" />
+    <state x="533" y="184" key="#com.intellij.ide.util.MemberChooser/-265.-1057.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1585829980947" />
     <state x="458" y="215" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1585824676822">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
