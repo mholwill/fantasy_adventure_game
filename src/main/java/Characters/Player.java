@@ -31,8 +31,6 @@ public abstract class Player {
     }
 
 
-
-
 //    public ArrayList<IAttack> getWeapons() {
 //        return weapons;
 //    }
