@@ -1,15 +1,20 @@
 package Enemies;
 
+import Weapons.Axe;
 import Weapons.IAttack;
+import Weapons.Sword;
 
 public abstract class Enemy {
 
     private String name;
     protected int healthPoints;
+    protected Sword sword;
 
-    public Enemy(String name, int healthPoints){
+
+    public Enemy(String name, int healthPoints, Sword sword){
         this.name = name;
         this.healthPoints = healthPoints;
+        this.sword = sword;
     }
 
     public int getHealthPoints() {
@@ -26,6 +31,10 @@ public abstract class Enemy {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public Sword getSword(){
+        return this.sword;
     }
 
 //   Method Can take damage

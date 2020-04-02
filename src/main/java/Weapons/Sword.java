@@ -1,5 +1,6 @@
 package Weapons;
 
+import Characters.Player;
 import Enemies.Enemy;
 
 public class Sword implements IAttack {
@@ -16,6 +17,12 @@ public class Sword implements IAttack {
         int healthpoints = enemy.getHealthPoints();
         healthpoints -= this.damage;
         enemy.setHealthPoints(healthpoints);
+    }
+
+    public void attackPlayer(Player player) {
+        int healthpoints = player.getHealthPoints();
+        healthpoints -= this.damage;
+        player.setHealthPoints(healthpoints);
     }
 
     public String getName() {

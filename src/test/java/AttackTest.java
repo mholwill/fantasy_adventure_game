@@ -3,6 +3,7 @@ import Enemies.Enemy;
 import Enemies.Orc;
 import Weapons.Axe;
 import Weapons.IAttack;
+import Weapons.Sword;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -13,12 +14,14 @@ public class AttackTest {
     Dwarf dwarf;
     Axe axe;
     Orc orc;
+    Sword sword;
 
     @Before
     public void setUp(){
         dwarf = new Dwarf("Fraser",100);
         axe = new Axe("Hammer Head Axe",25);
-        orc = new Orc("Trevor", 50);
+        sword = new Sword("Sword1", 30);
+        orc = new Orc("Trevor", 50, sword);
     }
 
     @Test
@@ -47,6 +50,12 @@ public class AttackTest {
         dwarf.addWeapon(axe);
         axe.attack(orc);
         assertEquals(25, orc.getHealthPoints());
+    }
+
+    @Test
+    public void canCheckAttackPlayer(){
+        sword.attackPlayer(dwarf);
+        assertEquals(70, dwarf.getHealthPoints());
     }
 
 

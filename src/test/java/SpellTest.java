@@ -1,6 +1,7 @@
 import Characters.Wizard;
 import Enemies.Troll;
 import Weapons.Spell;
+import Weapons.Sword;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -11,12 +12,14 @@ public class SpellTest {
     Wizard wizard;
     Spell spell;
     Troll troll;
+    Sword sword;
 
     @Before
     public void setUp() {
         wizard = new Wizard("Merlin", 140);
         spell = new Spell("Expecto Patronum", 40);
-        troll = new Troll("Calum", 50);
+        sword = new Sword("Sword1", 30);
+        troll = new Troll("Calum", 50, sword);
     }
 
     @Test

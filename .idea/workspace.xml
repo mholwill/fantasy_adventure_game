@@ -3,21 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="995e7f6b-f7cc-4ae8-81f9-e9005586e3de" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Characters/Cleric.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Characters/Cleric.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Characters/Knight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Characters/Knight.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Characters/Wizard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Characters/Wizard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Weapons/Axe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Weapons/Axe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Weapons/HealPotion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Weapons/HealPotion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Weapons/Spell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Weapons/Spell.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Weapons/Sword.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Weapons/Sword.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Enemies/Enemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Enemies/Enemy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Enemies/Orc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Enemies/Orc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Enemies/Troll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Enemies/Troll.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AttackTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AttackTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/SpellTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SpellTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Characters/Knight.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Characters/Knight.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Characters/Wizard.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Characters/Wizard.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Weapons/Axe.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Weapons/Axe.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Weapons/HealPotion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Weapons/HealPotion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Weapons/Spell.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Weapons/Spell.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Weapons/Sword.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Weapons/Sword.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/SpellTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SpellTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +45,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
   </component>
-  <component name="RunManager" selected="JUnit.SpellTest.canCastSpell">
+  <component name="RunManager" selected="JUnit.AttackTest.canCheckAttackPlayer">
     <configuration name="AttackTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FantasyAdventure" />
       <option name="PACKAGE_NAME" value="" />
@@ -65,11 +55,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AttackTest.canAttackEnemy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AttackTest.canCheckAttackPlayer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FantasyAdventure" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="AttackTest" />
-      <option name="METHOD_NAME" value="canAttackEnemy" />
+      <option name="METHOD_NAME" value="canCheckAttackPlayer" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -106,11 +96,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AttackTest.canCheckAttackPlayer" />
+        <item itemvalue="JUnit.SpellTest" />
+        <item itemvalue="JUnit.AttackTest" />
         <item itemvalue="JUnit.SpellTest.canCastSpell" />
         <item itemvalue="JUnit.SpellTest.canGetName" />
-        <item itemvalue="JUnit.SpellTest" />
-        <item itemvalue="JUnit.AttackTest.canAttackEnemy" />
-        <item itemvalue="JUnit.AttackTest" />
       </list>
     </recent_temporary>
   </component>
@@ -148,22 +138,22 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="458" y="215" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-265.-1057.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1585824676822" />
-    <state width="1398" height="230" key="GridCell.Tab.0.bottom" timestamp="1585832712339">
+    <state width="1398" height="230" key="GridCell.Tab.0.bottom" timestamp="1585833626249">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="230" key="GridCell.Tab.0.bottom/-265.-1057.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1585832712339" />
-    <state width="1398" height="230" key="GridCell.Tab.0.center" timestamp="1585832712338">
+    <state width="1398" height="230" key="GridCell.Tab.0.bottom/-265.-1057.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1585833626249" />
+    <state width="1398" height="230" key="GridCell.Tab.0.center" timestamp="1585833626248">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="230" key="GridCell.Tab.0.center/-265.-1057.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1585832712338" />
-    <state width="1398" height="230" key="GridCell.Tab.0.left" timestamp="1585832712338">
+    <state width="1398" height="230" key="GridCell.Tab.0.center/-265.-1057.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1585833626248" />
+    <state width="1398" height="230" key="GridCell.Tab.0.left" timestamp="1585833626247">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="230" key="GridCell.Tab.0.left/-265.-1057.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1585832712338" />
-    <state width="1398" height="230" key="GridCell.Tab.0.right" timestamp="1585832712339">
+    <state width="1398" height="230" key="GridCell.Tab.0.left/-265.-1057.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1585833626247" />
+    <state width="1398" height="230" key="GridCell.Tab.0.right" timestamp="1585833626248">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="230" key="GridCell.Tab.0.right/-265.-1057.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1585832712339" />
+    <state width="1398" height="230" key="GridCell.Tab.0.right/-265.-1057.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1585833626248" />
     <state width="1398" height="285" key="GridCell.Tab.1.bottom" timestamp="1585831635270">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
