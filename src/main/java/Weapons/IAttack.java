@@ -1,6 +1,6 @@
 package Weapons;
 
-public interface IWeapon {
+public interface IAttack {
 
     public void attack(Weapon Weapon);
 

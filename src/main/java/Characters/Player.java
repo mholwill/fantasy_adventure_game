@@ -1,26 +1,24 @@
 package Characters;
 
-import java.util.ArrayList;
+import Weapons.IAttack;
 
-import Weapons.weapon;
+import java.util.ArrayList;
 
 public abstract class Player {
 
     private String name;
     private int healthPoints;
-    private ArrayList<Weapons> weapons;
 
-    public Player(String name, int healthPoints, Weapons weapons){
+    public Player(String name, int healthPoints){
         this.name = name;
         this.healthPoints = healthPoints;
-        this.weapons = new ArrayList<Weapons>();
     }
 
     public int getHealthPoints() {
         return healthPoints;
     }
 
-    public ArrayList<Weapons> getWeapons() {
-        return weapons;
-    }
+//    public ArrayList<IAttack> getWeapons() {
+//        return weapons;
+//    }
 }
