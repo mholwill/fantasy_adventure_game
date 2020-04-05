@@ -1,3 +1,4 @@
+import Party.Party;
 import Treasures.Treasure;
 import org.junit.Before;
 import org.junit.Test;
@@ -23,8 +24,5 @@ public class PartyTest {
     public void checkTotalValueOfTreasures(){
         assertEquals(700,party.getValuesOfTreasures());
     }
-
-
-
 
 }

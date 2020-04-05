@@ -1,5 +1,6 @@
 import Characters.Dwarf;
 import Enemies.Orc;
+import Party.Party;
 import Rooms.Room;
 import Treasures.Treasure;
 import Weapons.Axe;
@@ -17,16 +18,19 @@ public class RoomTest {
     Dwarf dwarf;
     Axe axe;
     Treasure treasure;
+    Party party;
 
     @Before
     public void setUp(){
+        party = new Party();
         treasure = new Treasure("Gem", 200);
-        room= new Room("Castle", treasure);
+        room= new Room("Castle");
         sword = new Sword("Sword1", 30);
         orc = new Orc("Trevor", 50, sword);
         dwarf = new Dwarf("Fraser",100);
         axe = new Axe("Hammer Head Axe",25);
         room.addEnemyToRoom(orc);
+        room.addTreasure(treasure);
     }
 
     @Test
@@ -63,7 +67,18 @@ public class RoomTest {
 
     @Test
     public void checkHasTreasure(){
-        assertEquals("Gem", room.getTreasure());
+        assertEquals(1, room.getTreasure());
+    }
+
+    @Test
+    public void checkIfGiveTreasureToParty(){
+        dwarf.addWeapon(axe);
+        dwarf.attack(axe, orc);
+        dwarf.attack(axe, orc);
+        room.checkEnemyStatus(orc);
+        room.giveTreasureToParty(party, treasure);
+        assertEquals(0, room.getTreasure());
+        assertEquals(1, party.getTreasures());
     }
 
 }

@@ -1,3 +1,5 @@
+package Party;
+
 import Characters.Player;
 import Treasures.Treasure;
 
