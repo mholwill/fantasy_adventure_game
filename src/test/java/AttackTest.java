@@ -46,8 +46,14 @@ public class AttackTest {
     @Test
     public void canAttackEnemy(){
         dwarf.addWeapon(axe);
-        axe.attack(orc);
+        dwarf.attack(axe, orc);
         assertEquals(25, orc.getHealthPoints());
+    }
+
+    @Test
+    public void attackWithMissingWeapon(){
+        dwarf.attack(axe, orc);
+        assertEquals(50, orc.getHealthPoints());
     }
 
     @Test

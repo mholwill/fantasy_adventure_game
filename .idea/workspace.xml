@@ -2,9 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="995e7f6b-f7cc-4ae8-81f9-e9005586e3de" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Characters/Dwarf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Characters/Dwarf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Characters/Cleric.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Characters/Cleric.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Characters/Knight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Characters/Knight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Characters/Wizard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Characters/Wizard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AttackTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AttackTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/HealTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HealTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SpellTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SpellTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Characters/Dwarf.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Characters/Dwarf.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Characters/Knight.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Characters/Knight.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Characters/Wizard.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Characters/Wizard.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/AttackTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/AttackTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/SpellTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SpellTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,12 +51,22 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
   </component>
-  <component name="RunManager" selected="JUnit.SpellTest">
-    <configuration name="AttackTest.canCheckAttackPlayer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.HealTest.canHealPlayer">
+    <configuration name="AttackTest.attackWithMissingWeapon" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FantasyAdventure" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="AttackTest" />
-      <option name="METHOD_NAME" value="canCheckAttackPlayer" />
+      <option name="METHOD_NAME" value="attackWithMissingWeapon" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AttackTest.canAttackEnemy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FantasyAdventure" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AttackTest" />
+      <option name="METHOD_NAME" value="canAttackEnemy" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -63,11 +82,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpellTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SpellTest.canCastSpell" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FantasyAdventure" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="SpellTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="METHOD_NAME" value="canCastSpell" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -82,23 +102,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpellTest.getCreatureType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="FantasyAdventure" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SpellTest" />
-      <option name="METHOD_NAME" value="getCreatureType" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SpellTest" />
-        <item itemvalue="JUnit.SpellTest.canDefendWizard" />
-        <item itemvalue="JUnit.SpellTest.getCreatureType" />
         <item itemvalue="JUnit.HealTest.canHealPlayer" />
-        <item itemvalue="JUnit.AttackTest.canCheckAttackPlayer" />
+        <item itemvalue="JUnit.SpellTest.canDefendWizard" />
+        <item itemvalue="JUnit.SpellTest.canCastSpell" />
+        <item itemvalue="JUnit.AttackTest.attackWithMissingWeapon" />
+        <item itemvalue="JUnit.AttackTest.canAttackEnemy" />
       </list>
     </recent_temporary>
   </component>
@@ -136,25 +146,25 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="458" y="215" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-265.-1057.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1585824676822" />
-    <state width="1398" height="285" key="GridCell.Tab.0.bottom" timestamp="1585840452023">
+    <state width="1398" height="230" key="GridCell.Tab.0.bottom" timestamp="1586096710144">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="230" key="GridCell.Tab.0.bottom/-265.-1057.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1585837437581" />
+    <state width="1398" height="230" key="GridCell.Tab.0.bottom/-265.-1057.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1586096710144" />
     <state width="1398" height="285" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1585840452023" />
-    <state width="1398" height="285" key="GridCell.Tab.0.center" timestamp="1585840452023">
+    <state width="1398" height="230" key="GridCell.Tab.0.center" timestamp="1586096710144">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="230" key="GridCell.Tab.0.center/-265.-1057.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1585837437581" />
+    <state width="1398" height="230" key="GridCell.Tab.0.center/-265.-1057.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1586096710144" />
     <state width="1398" height="285" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1585840452023" />
-    <state width="1398" height="285" key="GridCell.Tab.0.left" timestamp="1585840452022">
+    <state width="1398" height="230" key="GridCell.Tab.0.left" timestamp="1586096710143">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="230" key="GridCell.Tab.0.left/-265.-1057.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1585837437580" />
+    <state width="1398" height="230" key="GridCell.Tab.0.left/-265.-1057.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1586096710143" />
     <state width="1398" height="285" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1585840452022" />
-    <state width="1398" height="285" key="GridCell.Tab.0.right" timestamp="1585840452023">
+    <state width="1398" height="230" key="GridCell.Tab.0.right" timestamp="1586096710144">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="230" key="GridCell.Tab.0.right/-265.-1057.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1585837437581" />
+    <state width="1398" height="230" key="GridCell.Tab.0.right/-265.-1057.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1586096710144" />
     <state width="1398" height="285" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1585840452023" />
     <state width="1398" height="285" key="GridCell.Tab.1.bottom" timestamp="1585840452025">
       <screen x="0" y="23" width="1440" height="877" />

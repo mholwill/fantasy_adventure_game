@@ -57,7 +57,8 @@ public class SpellTest {
 
     @Test
     public void canDefendWizard(){
-        creature.defend(sword);
+        wizard.addCreature(creature);
+        wizard.defend(creature, sword);
         assertEquals(140, wizard.getHealthPoints());
         assertEquals(385, creature.getHealthPoints());
     }
@@ -65,12 +66,9 @@ public class SpellTest {
     @Test
     public void canCastSpell(){
         wizard.addSpell(spell);
-        spell.cast(troll);
+        wizard.attack(spell, troll);
         assertEquals(10, troll.getHealthPoints());
     }
-
-
-
 
 
 }

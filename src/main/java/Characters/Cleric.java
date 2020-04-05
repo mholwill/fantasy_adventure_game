@@ -1,5 +1,7 @@
 package Characters;
 
+import Enemies.Enemy;
+import Weapons.HealPotion;
 import Weapons.IAttack;
 import Weapons.IHeal;
 
@@ -21,4 +23,10 @@ public class Cleric extends Player {
     public void addPotion(IHeal potion){
         this.potions.add(potion);
     }
+
+    public void heal(IHeal HealPotion, Player player) {
+        if (this.potions.contains(HealPotion)){
+        HealPotion.heal(player);}
+    }
+    
 }

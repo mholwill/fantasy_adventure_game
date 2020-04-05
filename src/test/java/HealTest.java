@@ -44,7 +44,8 @@ public class HealTest {
     @Test
     public void canHealPlayer(){
         sword.attackPlayer(dwarf);
-        potion.heal(dwarf);
+        cleric.addPotion(potion);
+        cleric.heal(potion, dwarf);
         assertEquals(90,dwarf.getHealthPoints());
     }
 
