@@ -1,5 +1,6 @@
 package Enemies;
 
+import Characters.Player;
 import Weapons.Axe;
 import Weapons.IAttack;
 import Weapons.Sword;
@@ -36,6 +37,7 @@ public abstract class Enemy {
     public Sword getSword(){
         return this.sword;
     }
+
 
 //   Method Can take damage
 
