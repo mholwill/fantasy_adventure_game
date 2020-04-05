@@ -1,6 +1,7 @@
 import Characters.Dwarf;
 import Enemies.Orc;
 import Rooms.Room;
+import Treasures.Treasure;
 import Weapons.Axe;
 import Weapons.Sword;
 import org.junit.Before;
@@ -15,10 +16,12 @@ public class RoomTest {
     Sword sword;
     Dwarf dwarf;
     Axe axe;
+    Treasure treasure;
 
     @Before
     public void setUp(){
-        room= new Room("Castle");
+        treasure = new Treasure("Gem", 200);
+        room= new Room("Castle", treasure);
         sword = new Sword("Sword1", 30);
         orc = new Orc("Trevor", 50, sword);
         dwarf = new Dwarf("Fraser",100);
@@ -56,6 +59,11 @@ public class RoomTest {
         room.checkEnemyStatus(orc);
         assertEquals(1, room.getEnemy());
         assertEquals(50, orc.getHealthPoints());
+    }
+
+    @Test
+    public void checkHasTreasure(){
+        assertEquals("Gem", room.getTreasure());
     }
 
 }

@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="995e7f6b-f7cc-4ae8-81f9-e9005586e3de" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Party.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Treasures/Treasure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/PartyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TreasureTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Rooms/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Rooms/Room.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/RoomTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RoomTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Rooms/Room.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Rooms/Room.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/RoomTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/RoomTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -42,13 +44,16 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
   </component>
-  <component name="RunManager" selected="JUnit.RoomTest.checkIfEnemyIsKilled">
-    <configuration name="RoomTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.RoomTest.checkHasTreasure">
+    <configuration name="PartyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FantasyAdventure" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RoomTest" />
+      <option name="MAIN_CLASS_NAME" value="PartyTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -74,6 +79,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RoomTest.checkHasTreasure" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FantasyAdventure" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RoomTest" />
+      <option name="METHOD_NAME" value="checkHasTreasure" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RoomTest.checkIfEnemyIsKilled" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FantasyAdventure" />
       <option name="PACKAGE_NAME" value="" />
@@ -84,23 +99,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RoomTest.checkRoomsShuffled" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="FantasyAdventure" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RoomTest" />
-      <option name="METHOD_NAME" value="checkRoomsShuffled" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RoomTest.checkHasTreasure" />
+        <item itemvalue="JUnit.PartyTest" />
         <item itemvalue="JUnit.RoomTest.checkIfEnemyIsKilled" />
         <item itemvalue="JUnit.RoomTest.checkEnemyStatus" />
         <item itemvalue="JUnit.RoomTest.checkAddEnemyToRoom" />
-        <item itemvalue="JUnit.RoomTest" />
-        <item itemvalue="JUnit.RoomTest.checkRoomsShuffled" />
       </list>
     </recent_temporary>
   </component>
@@ -130,6 +135,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="320" y="127" key="#Project_Structure" timestamp="1586101584031">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="320" y="127" key="#Project_Structure/-265.-1057.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1586101584031" />
     <state x="533" y="184" key="#com.intellij.ide.util.MemberChooser" timestamp="1585835186651">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
@@ -138,25 +147,25 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="458" y="215" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-265.-1057.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1585824676822" />
-    <state width="1398" height="230" key="GridCell.Tab.0.bottom" timestamp="1586100061377">
+    <state width="1398" height="230" key="GridCell.Tab.0.bottom" timestamp="1586102647588">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="230" key="GridCell.Tab.0.bottom/-265.-1057.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1586100061377" />
+    <state width="1398" height="230" key="GridCell.Tab.0.bottom/-265.-1057.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1586102647588" />
     <state width="1398" height="285" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1585840452023" />
-    <state width="1398" height="230" key="GridCell.Tab.0.center" timestamp="1586100061376">
+    <state width="1398" height="230" key="GridCell.Tab.0.center" timestamp="1586102647587">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="230" key="GridCell.Tab.0.center/-265.-1057.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1586100061376" />
+    <state width="1398" height="230" key="GridCell.Tab.0.center/-265.-1057.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1586102647587" />
     <state width="1398" height="285" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1585840452023" />
-    <state width="1398" height="230" key="GridCell.Tab.0.left" timestamp="1586100061375">
+    <state width="1398" height="230" key="GridCell.Tab.0.left" timestamp="1586102647587">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="230" key="GridCell.Tab.0.left/-265.-1057.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1586100061375" />
+    <state width="1398" height="230" key="GridCell.Tab.0.left/-265.-1057.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1586102647587" />
     <state width="1398" height="285" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1585840452022" />
-    <state width="1398" height="230" key="GridCell.Tab.0.right" timestamp="1586100061376">
+    <state width="1398" height="230" key="GridCell.Tab.0.right" timestamp="1586102647588">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="230" key="GridCell.Tab.0.right/-265.-1057.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1586100061376" />
+    <state width="1398" height="230" key="GridCell.Tab.0.right/-265.-1057.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1586102647588" />
     <state width="1398" height="285" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1585840452023" />
     <state width="1398" height="285" key="GridCell.Tab.1.bottom" timestamp="1585840452025">
       <screen x="0" y="23" width="1440" height="877" />
@@ -178,5 +187,9 @@
     </state>
     <state width="1398" height="285" key="GridCell.Tab.1.right/-265.-1057.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1585831635270" />
     <state width="1398" height="285" key="GridCell.Tab.1.right/0.23.1440.877@0.23.1440.877" timestamp="1585840452025" />
+    <state x="385" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1586102187584">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="385" y="213" width="670" height="676" key="search.everywhere.popup/-265.-1057.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1586102187584" />
   </component>
 </project>

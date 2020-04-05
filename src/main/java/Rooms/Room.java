@@ -1,6 +1,7 @@
 package Rooms;
 
 import Enemies.Enemy;
+import Treasures.Treasure;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -11,13 +12,15 @@ public class Room {
     private String name;
     private ArrayList<Exit> exits;
     private ArrayList<Enemy> enemy;
+    Treasure treasure;
 
-    public Room(String name){
+    public Room(String name, Treasure treasure){
         this.name = name;
         this.exits = new ArrayList<Exit>();
         addExitsToRoom();
         shuffleExits();
         this.enemy = new ArrayList<Enemy>();
+        this.treasure = treasure;
     }
 
     public int getExit() {
@@ -46,6 +49,10 @@ public class Room {
         if(enemy.getHealthPoints() <= 0){
             this.enemy.remove(enemy);
         }
+    }
+
+    public String getTreasure(){
+        return this.treasure.getName();
     }
 
 }
